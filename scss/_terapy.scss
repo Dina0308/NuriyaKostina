@@ -1,0 +1,48 @@
+.terapy {
+    padding: 38px 0 57px;
+    margin-top: 20px;
+    background: linear-gradient(to right, $text-color 43%, $main-color 43%);
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__divider {
+        width: 5px;
+        height: 165px;
+        background: $main-color;
+        position: absolute;
+        left: -66px;
+        top: 38px;
+    }
+    &__item {
+        max-width: 43%;
+        padding: 38px 0 57px;
+        padding-right: 58px;
+        position: relative;
+        .title {
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        .text {
+            color: #fff;
+        }
+    }
+    &__item2 {
+        max-width: 57%;
+        padding: 46px 0 35px 47px;
+        
+        .text {
+            color: $text-color;
+            margin-bottom: 32px;
+            margin-top: 81px;
+            span {
+                font-size: 12px;
+                font-style: italic;
+            }
+        }
+        .promo__btn {
+            margin-left: auto;
+        }
+    }
+    
+}

@@ -1,0 +1,74 @@
+.rew {
+    padding-top: 130px;
+    padding-bottom: 44px;
+    .prev {
+        position: absolute;
+        top: 50%;
+        left: 130px;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        width: 42px;
+        height: 42px;
+        img {
+            width: 100%;
+        }
+    }
+    .next {
+        position: absolute;
+        top: 50%;
+        right: 130px;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        width: 42px;
+        height: 42px;
+        img {
+            width: 100%;
+        }
+    }
+    &__slider {
+        margin-bottom: 44px;
+        background: $main-color;
+        margin-top: 101px;
+        div {
+            padding: 43px 183px;
+            .text {
+                span {
+                    display: block;
+                   text-align: right;
+                }
+            }
+        }
+    }
+    &__border {
+        width: 88%;
+        height: 80%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -38%);
+        border: 5px solid $text-color;
+    }
+}
+.my-slider {
+    position: relative;
+}
+.tns-nav {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    button {
+        background: gray;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        border: none;
+        margin-right: 5px;
+    }
+    .tns-nav-active {
+        background: $main-color;
+    }
+}

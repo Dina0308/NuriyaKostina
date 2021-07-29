@@ -1,0 +1,96 @@
+.methods {
+    padding: 130px 0;
+    &__wrapper {
+        margin: 80px auto 0;
+        max-width: 900px;
+        position: relative;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+    }
+    &__line {
+        height: 5px;
+        width: 100%;
+        background: $main-color;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 25px 0;
+    }
+    &__circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        background: $text-color;
+        cursor: pointer;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        transform: rotate(90deg);
+        padding-bottom: 5px;
+        &:hover {
+            box-shadow: #000 5px 5px 15px;
+        }
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__descr {
+        .methods__text {
+            font-weight: 700;
+        }
+        .text {
+            text-indent: 20px;
+        }
+        &_1 {
+            display: none;
+            width: 77%;
+            position: absolute;
+            z-index: 3;
+            background: #fff;
+            padding: 10px;
+            top: 60%;
+            box-shadow: #000 10px 10px 20px;
+            
+        }
+        &_2 {
+            display: none;
+            width: 77%;
+            position: absolute;
+            z-index: 3;
+            background: #fff;
+            padding: 10px;
+            top: 60%;
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: #000 10px 10px 20px;
+            
+        }
+        &_3 {
+            display: none;
+            width: 77%;
+            position: absolute;
+            z-index: 3;
+            background: #fff;
+            padding: 10px;
+            top: 60%;
+            right: 0;
+            box-shadow: #000 10px 10px 20px;
+            
+        }
+    }
+    &__close {
+        position: absolute;
+        font-size: 30px;
+        right: 18px;
+        top: 3px;
+        cursor: pointer;
+        font-weight: 700;
+    }
+}

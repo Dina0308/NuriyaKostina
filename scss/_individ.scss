@@ -1,0 +1,48 @@
+.individ {
+    padding: 38px 0 57px;
+    background: linear-gradient(to right, $main-color 43%, $text-color 43%);
+    
+    &__divider {
+        width: 5px;
+        height: 165px;
+        background: $text-color;
+        position: absolute;
+        left: -66px;
+        top: 150px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        max-width: 43%;
+        padding: 38px 0 57px;
+        padding-right: 58px;
+        position: relative;
+        .title {
+            margin-bottom: 20px;
+        }
+    }
+    &__item2 {
+        max-width: 57%;
+        padding: 46px 0 35px 47px;
+        .subtitle {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .text {
+            color: #fff;
+            margin-bottom: 32px;
+        }
+        .promo__btn {
+            color: #fff;
+            border-color: #fff;
+            margin-left: auto;
+            &:hover {
+                color: $text-color;
+                background: $main-color;
+                border-color: $text-color;
+            }
+        }
+    }
+}

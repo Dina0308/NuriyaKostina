@@ -1,0 +1,42 @@
+footer {
+    background: $text-color;
+    padding: 106px 0;
+    .text {
+        color: #fff;
+    }
+}
+.footer {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__content {
+        max-width: 360px;
+    }
+    &__title {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 37px;
+        margin-bottom: 20px;
+        color: #FFFFFF;
+    }
+    &__soc {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    &__link {
+        display: block;
+        margin-left: 37px;
+        height: 40px;
+        width: 40px;
+        &:hover {
+            opacity: .6;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}

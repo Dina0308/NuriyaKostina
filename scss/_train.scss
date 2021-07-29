@@ -1,0 +1,105 @@
+.train {
+    padding: 0 0 130px;
+    
+    
+    &__item {
+        margin-top: 82px;
+        background: linear-gradient(to left, $main-color 30%, #fff 30%);
+        border: 1px solid rgba(20%, 20%, 20%, .5);
+        box-shadow: 17px 17px $text-color;
+        position: relative;
+        padding: 25px 32px 40px;
+        .title, .subtitle {
+            margin-left: 20px;
+        }
+        .text {
+            span {
+                display: block;
+                margin-top: 10px;
+                
+            }
+        }
+        &_ind {
+            .title {
+                margin-bottom: 15px;
+                font-size: 30px;
+            }
+            .subtitle {
+                margin-bottom: 15px;
+            }
+            .promo__btn {
+                
+                margin-top: 34px;
+            }
+            
+        }
+    }
+    &_left {
+        margin-left: auto;
+    }
+    &_840 {
+        max-width: 840px;
+        margin-left: 60px;
+    }
+    &_763 {
+        max-width: 763px;
+    }
+    &_950 {
+        max-width: 950 px;
+        margin-left: 60px;
+    }
+    &__num {
+        font-family: 'Cormorant', serif;
+        position: absolute;
+        font-size: 150px;
+        line-height: 170px;
+        top: -28%;
+        left: -3%;
+        &_top {
+            top: -42%;
+            font-size: 170px;
+        }
+        &_5 {
+            top: -17%;
+        }
+    }
+    .work__text {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .text {
+       
+        margin-left: 32px;
+    }
+    ol.text {
+        padding-left: 32px;
+    }
+    .pl67 {
+        padding-left: 67px;
+    }
+    &__prim {
+        font-size: 14px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        .promo__btn {
+            font-size: 12px;
+            margin-top: 10px;
+            margin-right: 10px;
+            padding: 8px 13px;
+            width: auto;
+        }
+    }
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        a {
+            margin: 0 7px;
+        }
+    }
+}
